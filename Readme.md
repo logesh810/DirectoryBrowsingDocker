@@ -35,3 +35,25 @@ Note: If you are getting error or warning like this `WARNING: The requested imag
  --name file_list logidockerhub/directorybrowser:arm64
 ```
 
+
+# Own build
+If you want to create a own build
+## Clone 
+
+```
+git clone https://github.com/logesh810/DirectoryBrowsingDocker.git
+```
+## Change Directory
+```
+cd DirectoryBrowsingDocker
+```
+## Normal build
+```
+docker build -t directorybrowser .
+```
+or
+## arm64 build
+```
+docker build --platform linux/arm64 -t directorybrowser:arm64 .
+```
+
