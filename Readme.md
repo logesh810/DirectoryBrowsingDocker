@@ -2,8 +2,7 @@
 
 
 ```
-docker run -d -p 8086:80 -v /mnt:/mnt/data
- --name file_list logidockerhub/directorybrowser
+docker run -d -p 8086:80 -v /mnt:/mnt/data --name file_list logidockerhub/directorybrowser
  ```
 
 ## Explanation
@@ -31,8 +30,7 @@ Note: If you are getting error or warning like this `WARNING: The requested imag
 
 
 ```
- docker run -d -p 8086:80 -v /mnt:/mnt/data
- --name file_list logidockerhub/directorybrowser:arm64
+ docker run -d -p 8086:80 -v /mnt:/mnt/data --name file_list logidockerhub/directorybrowser:arm64
 ```
 
 
